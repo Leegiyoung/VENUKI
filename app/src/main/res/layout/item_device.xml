@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#6A6A6A"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DCDCDC"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="VENUKI"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_serial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="SERIAL NUM"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="VERSION 1.2"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
